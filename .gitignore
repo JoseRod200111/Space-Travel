@@ -1,0 +1,6 @@
+build/
+*.exe
+*.o
+Thumbs.db
+.DS_Store
+*.obj.tmp
