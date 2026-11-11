@@ -219,11 +219,10 @@ Se requiere:
 
 ### Compilar
 
-Desde MSYS2 UCRT64:
+Desde MSYS2 UCRT64, ubicarse dentro de la carpeta del proyecto y ejecutar:
 
 ```bash
-cd /c/Users/rober/Documents/proyecto_3_space_travel
-
+mkdir -p build
 g++ src/main.cpp -std=c++17 $(sdl2-config --cflags --libs) -O2 -o build/space_travel.exe
 ```
 
